@@ -2,7 +2,7 @@ import bcrypt from 'bcrypt';
 import { Hospital } from "../../models/hospital-model/hospital-model.js";
 import { accessIdGenerator } from '../../utils/id-generator/Access-id-generator.js';
 import { generatePassword } from "../../utils/password-generator/Password-generator.js";
-import {sendEmail} from '../../utils/email-sender/emailSender.js';
+import sendEmail from '../../utils/email-sender/emailSender.js';
 
 
 const hospitalRegistration = async (req, res) => {
